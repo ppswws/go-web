@@ -1,7 +1,7 @@
 <h1 align="center" >Go Web</h1>
 
 <div align="center">
-由gin + jwt + casbin + gorm技术栈实现Golang版的RBAC权限管理脚手架, 其主要目的是使Golang初学者通过实践进一步掌握Golang相关的开发技能
+这是学习分支
 </div>
 <p align="center">
 <img src="https://img.shields.io/badge/Go-v1.16-blue" alt="Go version"/>
@@ -56,42 +56,3 @@
 ├── go.sum # go依赖下载历史
 ├── LICENSE # 开源证书
 ├── README.md # 说明文档
-```
-
-## 快速开始
-```
-# 开始前请使用go mod，它可以为你减少很多麻烦
-
-# 下载项目
-git clone https://github.com/cyj19/go-web.git
-
-# 进入admin主程序入口
-cd cmd/admin
-
-# 运行程序
-# 使用开发环境默认配置运行
-go run main.go 
-# 使用生产环境指定配置运行
-go run main.go -web_config=xxxx -web_mode=prod
-
-```
-> 启动成功后，携带参数username:admin password:123456，发送POST请求到 `http://127.0.0.1:9999/api/v1/base/login` 获取token
-
-## 感想
-花足够多的时间，做足够多的练习。  
-学习过程中一直深受[如何快速高效率地学习Go语言](https://www.cnblogs.com/code-craftsman/p/12515802.html)文章影响，在此与大家分享。
-
-## 特别鸣谢
-> 本项目开发过程学习了以下大神的思路和代码风格，感谢大神！！！
-
-<br/>
-[gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin): Gin-vue-admin is a full-stack (frontend and backend separation) framework designed for management system.
-<br/>
-[gin-web](https://github.com/piupuer/gin-web)
-<br/>
-[iam](https://github.com/marmotedu/iam)
-
-
-## MIT License
-
-    Copyright (c) 2021 cyj19
